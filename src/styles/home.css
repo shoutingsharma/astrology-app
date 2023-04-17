@@ -1,0 +1,71 @@
+.home-container {
+  /* background: #a74800; */
+  background-image: url(../assests/img/astro-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+
+
+.body-container {
+  margin-top: 5rem;
+}
+.body-container h1 {
+  margin-bottom: 20px;
+}
+.body-container p {
+  margin-bottom: 20px;
+}
+.body-container button {
+  padding: 5px 10px;
+  background-color: #a74800;
+  border-radius: 20px;
+  border: none;
+  color: whitesmoke;
+}
+.footer {
+  margin-top: 5rem;
+  display: flex;
+
+  justify-content: space-evenly;
+  margin-bottom: 5rem;
+  /* background-color: #a74800; */
+  padding-bottom: 1rem;
+  
+}
+.footer .support {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.support p {
+  padding: 10px;
+}
+
+/* @media screen and (max-width: 650px) {
+    .logo-container{
+       position: relative;
+       margin-left: -10vh;
+       padding: 10px;
+       align-items: baseline;
+       
+       
+    }
+    .avtar{
+    
+    
+
+    
+
+    }
+
+    .footer{
+        justify-content: center;
+        
+    }
+  .footer .support {
+    flex-direction: column;
+  }
+} */
